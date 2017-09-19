@@ -1,0 +1,565 @@
+/**{
+	display: block;
+}*/
+header
+{
+    position: absolute;
+    z-index: 4;
+
+    display: inline-block;
+
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+
+    border-bottom: 2px solid dashed;
+}
+header .container  .row   .dropdown .btn-default
+{
+    font-family: 'Lato Regular';
+    font-size: 10px;
+
+    text-transform: uppercase;
+}
+
+
+.logo
+{
+    text-align: center;
+}
+.basket
+{
+    text-align: right;
+}
+nav
+{
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+
+    width: 100%;
+    height: 40px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    background-color:#03a9f5;
+}
+
+nav a
+{
+    font-size: 18px;
+
+    position: relative;
+    top: 5px;
+
+    margin: auto;
+    padding: 15px;
+
+    text-decoration: none!important;
+
+    color: #ffffff;
+}
+nav .home{
+	/*margin-left: 420px;*/
+	text-align: right;
+}
+nav .angelshop{
+	/*margin-left: -420px;*/
+	text-align: left;
+}
+.banner
+{
+    position: relative;
+    z-index: 1;
+    top: 100px;
+    display: flex;
+	justify-content: center;
+    width: 100%;
+    height: 420px;
+}
+.banner img
+{
+    width: 100%;
+    height: 420px;
+}
+.search
+{
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    width: 350px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+.form-group label
+{
+    width: 235px;
+    display: none;
+}
+.search .form-group{
+	width: 235px;
+}
+.btn-success
+{
+    font-size: 15px;
+
+    width: 100px;
+    height: 35px;
+
+    text-transform: uppercase;
+
+    border-radius: -5px;
+}
+.buttsearch
+{
+    left: 300px;
+    width: 100px;
+}
+.top
+{
+    position: relative;
+    top: 100px;
+    width: 100%;
+    height: 830px;
+}
+.top h1
+{
+    font-family: 'Lato Regular';
+    font-size: 25px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+.top .row
+{
+   text-align: center;
+    padding: 10px;
+}
+.top .row a
+{
+    font-size: 15px;
+	background-color:#f2dbde;
+   /*
+   */
+   padding: 5px;
+    margin-right: 20px;
+	/*border:1px solid;*/
+    text-transform: uppercase;
+	box-sizing: border-box;
+    color: #000; 
+    text-align: center;
+    text-decoration: none!important;
+}
+.row a:hover{
+	color:#ffffff;
+	background-color: #03a9f5;
+}
+.top .date{
+	text-align: right;
+}
+.top .review{
+	text-align: left;
+}
+a :hover{
+	background-color:#1d98dc;
+	color:#ffff;
+}
+
+.topbokel
+{
+    position: absolute;
+    top: 120px;
+    display: flex;
+    width: 100%;
+    height: 355px;
+    justify-content: center;
+}
+.bokel1,
+.bokel2,
+.bokel3,
+.bokel4
+{
+    width: 220px;
+    height: 250px;
+    margin-right: 30px;
+}
+.topbokel img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.bokel_name
+{
+    width: 220px;
+    height: 115px;
+}
+.bokel1,
+.bokel2,
+.bokel3,
+.bokel4, .bokel_name
+h1 
+{
+    text-align: center;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+/*star rating code css*/
+.star-rating
+{
+	  padding-top: 20px;
+}
+.star-rating__wrap
+{
+    font-size: 1rem;
+
+    display: inline-block;
+}
+.star-rating__wrap:after
+{
+    display: table;
+    clear: both;
+
+    content: '';
+}
+.star-rating__ico
+{
+    float: right;
+
+    padding-left: 2px;
+
+    cursor: pointer;
+
+    color: #ffb300;
+}
+.star-rating__ico:last-child
+{
+    padding-left: 0;
+}
+.star-rating__input
+{
+    display: none;
+}
+.star-rating__ico:hover:before,
+.star-rating__ico:hover ~ .star-rating__ico:before,
+.star-rating__input:checked ~ .star-rating__ico:before
+{
+    content: '\f005';
+}
+
+/**/
+
+.regionFish{
+	position: relative;
+	top: 420px;
+	 display: flex;
+    width: 100%;
+    height: 340px;
+    justify-content: center;
+    z-index: 2;
+}
+.regionFish .rF1, .rF2, .rF3{
+	width: 330px;
+	height: 330px;
+}
+.regionFish img{
+	width: 100%;
+	height: 100%;
+}
+.regionF_name{
+	position: absolute;
+	color:#ffffff;
+	z-index: 3;
+	text-align: center;
+	top: 120px;
+}
+.regionFish .regionF_name h1{
+	font-size: 15px;
+	text-transform: capitalize;
+	font-family: 'Lato Regular';
+}
+.regionFish .regionF_name p{
+	font-size: 25px;
+	text-transform: capitalize;
+}
+.seeall{
+	position: absolute;
+	z-index: 3;
+	text-align: center;
+	top: 200px;
+	text-transform: uppercase;
+	border:1px solid #ffffff;
+	box-sizing:border-box;
+	width: 100px;
+	height: 30px;
+}
+.seeall a{
+	color:#ffffff;
+	font-size: 15px;
+	/*background-color: */
+	text-align:center; 
+	text-decoration: none;
+}
+.howitwork{
+	width: 100%;
+	height: 325px;
+	top: 120px;
+	position: relative;
+}
+.howitwork .imgHow{
+
+	/*width: 1260px;*/
+	height: 280px;
+	top: 20px;
+}
+.howitwork h1{
+	text-transform:uppercase;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Lato Regular';
+	margin-top: 20px;
+}
+.howitwork .registration{
+	position: relative;
+	/*width: 340px;
+	height: 200px;*/
+	margin-top: 75px;
+}
+.howitwork .einreichen{
+	/*width: 340px;
+	height: 200px;
+	*/	margin-top: 75px;
+
+}
+.howitwork .bezahlen{
+	/*width: 340px;
+	height: 200px;
+	*/	margin-top: 75px;
+
+}
+.imgHowpng {
+	display: block;
+	margin: auto;
+}
+.imgHow{
+	background-color:#f2dbde;
+}
+.imgHow h1{
+	font-size: 15px;
+	font-family: 'Lato Regular';
+}
+.imgHow p{
+	font-size: 10px;
+	text-align: center;
+}
+.slider{
+	width: 100%;
+	height: 600px;
+	display: inline-block;
+	position: relative;
+	top: 100px;
+}
+.slider h1{
+	text-transform:uppercase;
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Lato Regular';
+}
+.slider .shop{
+	width: 100%;
+	height: 465px;
+	/*display: flex;*/
+	/*justify-content: space-between;*/
+	/*margin-left: -65px;*/
+}
+.shop .shoprow1{
+	width: 100%;
+	height:180px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+ .shop1{
+	width: 360px;
+	height: 150px;
+}
+ .shop1 img{
+	width: 130px;
+	height: 150px;
+}
+.shop1 .star-rating{
+	margin-left: 160px;
+	margin-top: -170px;
+		text-align: left;
+
+}
+.shop1 .star-rating h1{
+	font-size: 15px;
+	text-transform: capitalize;
+		text-align: left;
+
+}
+.shop1 .btn-secondary{
+	text-transform: uppercase;
+	font-size: 10px;
+	color:#868e96;
+    background-color: #fff ;
+    border-color: #868e96;
+}
+ .shop2{
+	width: 360px;
+	height: 150px;
+}
+.shop2 img{
+	width: 130px;
+	height: 150px;
+}
+.shop2 .star-rating{
+	margin-left: 150px;
+	margin-top: -170px;
+	text-align: left;
+}
+.shop2 .star-rating h1{
+		font-size: 15px;
+			text-transform: capitalize;
+ text-align: left;
+}
+.shop2 .btn-secondary{
+	text-transform: uppercase;
+	color:#868e96;
+    background-color: #fff ;
+    border-color: #868e96;
+	font-size: 10px;
+}
+.shop .swiper-button-prev{
+	margin-left: 1190px;
+	top: 0;
+	margin-top: 0;
+}
+.swiper-button-prev .img_arrow{
+	background-image: url("app/img/arrow-bold-left-ios-7-interface-symbol_318-34824.jpg");
+
+}
+
+.shop .swiper-button-next{
+	top: 0;
+	margin-top:0;
+}
+
+/*shoprow2*/
+.shop .shoprow2{
+	width: 100%;
+	height: 180px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+	
+}
+ .shop3{
+	width: 360px;
+	height: 150px;
+}
+ .shop3 img{
+	width: 130px;
+	height: 150px;
+}
+.shop3 .star-rating{
+	margin-left: 150px;
+	margin-top: -170px;
+		text-align: left;
+
+}
+.shop3 .star-rating h1{
+	font-size: 15px;
+	text-transform: capitalize;
+		text-align: left;
+
+}
+.shop3 .btn-secondary{
+	text-transform: uppercase;
+	font-size: 10px;
+	color:#868e96;
+    background-color: #fff ;
+    border-color: #868e96;
+}
+ .shop4{
+	width: 360px;
+	height: 150px;
+}
+.shop4 img{
+	width: 130px;
+	height: 150px;
+}
+.shop4 .star-rating{
+	margin-left: 150px;
+	margin-top: -170px;
+	text-align: left;
+}
+.shop4 .star-rating h1{
+		font-size: 15px;
+			text-transform: capitalize;
+ text-align: left;
+}
+.shop4 .btn-secondary{
+	text-transform: uppercase;
+	color:#868e96;
+    background-color: #fff ;
+    border-color: #868e96;
+	font-size: 10px;
+}
+
+
+
+/* begin footer*/
+footer{
+	width: 100%;
+	height: 170px;
+	border-top: 1px solid  #87ceeb;
+	display: inline-block;
+	
+}
+footer .footer_el{
+	display: flex;
+	justify-content: space-between;
+	/*margin-left: 40px;*/
+}
+footer .logo_footer{
+	width: 200px;
+	height: 60px;
+	margin-top: 40px;
+	margin-left: 150px;
+}
+footer .footer_el .logo_footer p{
+	margin-left: 80px;
+	font-size: 10px;
+}
+footer img{
+	width: 100%;
+	height: 100%;
+}
+footer .kontakt{
+	position: relative;
+	margin-left:-5px;
+	top: 30px;
+}
+footer .kontakt h1{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-family: 'Lato Regular';
+}
+footer .information{
+	margin-right: 400px;
+	position: relative;
+	top: 30px;
+}
+footer .information h1{
+		font-size: 15px;
+		text-transform: uppercase;
+		font-family: 'Lato Regular';
+	}
+footer .information a{
+	font-size: 15px;
+}
